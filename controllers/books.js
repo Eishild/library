@@ -145,7 +145,6 @@ export const deleteBook = (req, res) => {
       return
     }
 
-    console.log(req.user)
     //Create a new array with deleted book
     const filteredBooks = books.filter((book) => book.id !== Number(id))
 
